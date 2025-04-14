@@ -1,1 +1,56 @@
 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Nhập hệ số a"
+        android:inputType="numberSigned|numberDecimal"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp" />
+
+    <EditText
+        android:id="@+id/editTextB"activity_main.xml
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp"
+        android:hint="Nhập hệ số b"
+        android:inputType="numberSigned|numberDecimal"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp"
+        android:hint="Nhập hệ số c"
+        android:inputType="numberSigned|numberDecimal"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSolve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Giải phương trình"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả sẽ hiển thị ở đây"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:paddingTop="24dp"/>
+</LinearLayout>
